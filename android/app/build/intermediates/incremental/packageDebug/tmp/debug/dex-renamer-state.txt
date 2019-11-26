@@ -1,0 +1,10 @@
+#Tue Nov 26 07:47:42 CVT 2019
+path.2=classes3.dex
+path.1=classes2.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=C\:\\Users\\its_soa\\Desktop\\reacteic\\backup\\react-instamobile\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+base.1=C\:\\Users\\its_soa\\Desktop\\reacteic\\backup\\react-instamobile\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+base.0=C\:\\Users\\its_soa\\Desktop\\reacteic\\backup\\react-instamobile\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0

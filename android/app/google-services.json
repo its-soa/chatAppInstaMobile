@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "732372954641",
+    "firebase_url": "https://aot-conf-eb0cb.firebaseio.com",
+    "project_id": "aot-conf-eb0cb",
+    "storage_bucket": "aot-conf-eb0cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732372954641:android:81c53814ef21a7ec740bb0",
+        "android_client_info": {
+          "package_name": "io.instamobile.starterkit.rn.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732372954641-mk8nkj9kceuqeopprdgbavm4gkmp40b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz0BKqTagwXzV-mrkbhDmaPzWqU-N202c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732372954641-mk8nkj9kceuqeopprdgbavm4gkmp40b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

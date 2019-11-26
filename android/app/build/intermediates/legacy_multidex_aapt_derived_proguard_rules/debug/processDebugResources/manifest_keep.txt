@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:28
+-keep class io.instamobile.starterkit.rn.android.MainApplication { <init>(...); }
+
