@@ -1,0 +1,65 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add firebase
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\its_soa\bin;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Oracle\VirtualBox;C:\HashiCorp\Vagrant\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Docker Toolbox;C:\Users\its_soa\AppData\Local\Microsoft\WindowsApps;C:\Users\its_soa\AppData\Roaming\Composer\vendor\bin;C:\Users\its_soa\AppData\Roaming\npm;C:\Users\its_soa\AppData\Local\Yarn\bin;C:\Program Files\platform-tools
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, copyfile 'C:\Users\its_soa\AppData\Local\Yarn\Cache\v4\npm-react-native-0.55.4-eecffada3750a928e2ddd07cf11d857ae9751c30\node_modules\react-native\ReactAndroid\src\main\java\com\facebook\react\common\ShakeDetector.java' -> 'c:\Users\its_soa\Desktop\reacteic\backup\react-instamobile\node_modules\react-native\ReactAndroid\src\main\java\com\facebook\react\common\ShakeDetector.java'
+
+npm manifest: 
+  {
+    "name": "StarterApp",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "start": "node node_modules/react-native/local-cli/cli.js start",
+      "test": "jest"
+    },
+    "dependencies": {
+      "moment": "^2.22.2",
+      "react": "16.5.0",
+      "react-native": "0.55.4",
+      "react-native-actionsheet": "^2.4.2",
+      "react-native-button": "^2.3.0",
+      "react-native-elements": "^0.19.1",
+      "react-native-fast-image": "^5.0.10",
+      "react-native-fbsdk": "^0.8.0",
+      "react-native-firebase": "^5.0.0",
+      "react-native-geocoding": "^0.3.0",
+      "react-native-image-picker": "^0.27.1",
+      "react-native-maps": "^0.21.0",
+      "react-native-modal-selector": "0.0.29",
+      "react-native-snap-carousel": "^3.7.5",
+      "react-native-star-rating": "^1.1.0",
+      "react-native-vector-icons": "^5.0.0",
+      "react-navigation": "^2.17.0",
+      "react-navigation-redux-helpers": "^2.0.6",
+      "react-redux": "^5.0.7",
+      "redux": "^4.0.0"
+    },
+    "devDependencies": {
+      "babel-jest": "23.6.0",
+      "jest": "23.6.0",
+      "metro-react-native-babel-preset": "0.47.1",
+      "react-test-renderer": "16.5.0"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

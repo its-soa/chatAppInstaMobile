@@ -14,12 +14,13 @@ class LoginScreen extends React.Component {
     this.state = {
       loading: true,
       email: "",
+      fullname: "",
       password: ""
     };
   }
 
   onPressLogin = () => {
-    const { email, password } = this.state;
+    const { email, password, fullname } = this.state;
     if (email.length <= 0 || password.length <= 0) {
       alert("Please fill out the required fields.");
       return;
@@ -67,7 +68,7 @@ class LoginScreen extends React.Component {
     ]).then(
       result => {
         if (result.isCancelled) {
-          alert("Whoops!", "You cancelled the sign in.");
+          alert( "You cancelled the sign in.");
         } else {
           AccessToken.getCurrentAccessToken().then(data => {
             const credential = firebase.auth.FacebookAuthProvider.credential(

@@ -7,6 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "firebase": "^7.5.0",
     "moment": "^2.22.2",
     "react": "16.5.0",
     "react-native": "0.55.4",
@@ -17,6 +18,7 @@
     "react-native-fbsdk": "^0.8.0",
     "react-native-firebase": "^5.0.0",
     "react-native-geocoding": "^0.3.0",
+    "react-native-gifted-chat": "^0.12.0-beta-0",
     "react-native-image-picker": "^0.27.1",
     "react-native-maps": "^0.21.0",
     "react-native-modal-selector": "0.0.29",

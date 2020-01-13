@@ -12,6 +12,7 @@ import {
 } from "react-navigation-redux-helpers";
 import HomeScreen from "../screens/HomeScreen";
 import LoginScreen from "../screens/LoginScreen";
+import FileUpload from '../screens/FileUpload';
 import SignupScreen from "../screens/SignupScreen";
 import WelcomeScreen from "../screens/WelcomeScreen";
 import { AppIcon, AppStyles } from "../AppStyles";
@@ -36,7 +37,8 @@ const LoginStack = createStackNavigator(
   {
     Login: { screen: LoginScreen },
     Signup: { screen: SignupScreen },
-    Welcome: { screen: WelcomeScreen }
+    Welcome: { screen: WelcomeScreen },
+    
   },
   {
     initialRouteName: "Welcome",
@@ -51,7 +53,8 @@ const LoginStack = createStackNavigator(
 
 const HomeStack = createStackNavigator(
   {
-    Home: { screen: HomeScreen }
+    Home: { screen: HomeScreen },
+    FileUpload: { screen: FileUpload},
   },
   {
     initialRouteName: "Home",
@@ -68,7 +71,8 @@ const HomeStack = createStackNavigator(
 
 const TabNavigator = createBottomTabNavigator(
   {
-    Home: { screen: HomeStack }
+    Home: { screen: HomeStack },
+    FileUpload: { screen: FileUpload }
   },
   {
     navigationOptions: ({ navigation }) => ({

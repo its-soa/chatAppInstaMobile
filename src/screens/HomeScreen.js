@@ -3,10 +3,11 @@ import {
   ScrollView,
   StyleSheet,
   Text,
+  View,
   TouchableOpacity,
 } from "react-native";
 
-import FastImage from "react-native-fast-image";
+
 import { connect } from "react-redux";
 import {
   AppIcon,
@@ -19,7 +20,8 @@ class HomeScreen extends React.Component {
   static navigationOptions = ({ navigation }) => ({
     title: "Home",
     headerLeft: () => {
-      return (
+      return ( 
+        <View>
         <TouchableOpacity
           onPress={() => {
             navigation.openDrawer();
@@ -41,6 +43,7 @@ class HomeScreen extends React.Component {
             />
           )} */}
         </TouchableOpacity>
+        </View>
       );
     }
   });
@@ -52,11 +55,11 @@ class HomeScreen extends React.Component {
     };
   }
 
-  componentDidMount() {
-    this.props.navigation.setParams({
-      menuIcon: this.props.user.profileURL
-    });
-  }
+  // componentDidMount() {
+  //   this.props.navigation.setParams({
+  //     menuIcon: this.props.user.profileURL
+  //   });
+  // }
 
   render() {
     return (
